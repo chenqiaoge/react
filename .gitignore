@@ -1,0 +1,4 @@
+# 设置git提交忽略的文件（夹）
+node_modules/
+*.log
+dists/

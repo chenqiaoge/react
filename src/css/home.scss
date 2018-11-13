@@ -1,0 +1,24 @@
+.navBox{
+    background: #aaa;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    height: 60px;
+    padding-left: 100px;
+    li{
+        float: left;
+        width: 100px;
+        a{
+            display: block;
+            color: #f1f1f1;
+        }
+    }
+}
+.leftNavs{
+    float: left;
+    width: 200px;
+    height: 400px;
+}
+.rightConts{
+    float: left;
+}
