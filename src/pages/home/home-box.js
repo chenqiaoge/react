@@ -32,7 +32,7 @@ export default class Homes extends Component {
                         <Route path={`${match.url}/count`} component={Counter} />
                     </Switch>
                 </div>
-
+                <Counter></Counter>
 
             </div>
         )
