@@ -8,7 +8,8 @@ import {
 import Home from './home';
 import Lists from '../lists/list';
 import Detail from '../lists/detail';
-import '../../css/home.scss'
+import Counter from '../counter/counter';
+import '../../css/home.scss';
 
 export default class Homes extends Component {
     render() {
@@ -20,6 +21,7 @@ export default class Homes extends Component {
                     <li><Link to="/home">首页??</Link></li>
                     <li><Link to="/home/list">列表页</Link></li>
                     <li><Link to="/home/detail">详情</Link></li>
+                    <li><Link to="/home/count">交易</Link></li>
                 </ul>
                 <div className="leftNavs">左侧菜单树</div>
                 <div className="rightConts">
@@ -27,6 +29,7 @@ export default class Homes extends Component {
                         <Route exact path={`${match.url}`} component={Home} />
                         <Route path={`${match.url}/list`} component={Lists} />
                         <Route path={`${match.url}/detail`} component={Detail} />
+                        <Route path={`${match.url}/count`} component={Counter} />
                     </Switch>
                 </div>
 

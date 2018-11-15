@@ -1,4 +1,4 @@
-// 2018-11.11,使用webpack4搭建react-app，
+// 2018-11.11,使用webpack4搭建react-app，（github远程origin）
 // 引用CSS文件
 // 需要下载一些解析css样式的loader
 
